@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Student Information</h1>
+        <form action="savetwo" method="post">
+            <table>
+                <tr>
+                    <td>Department : </td>
+                    <td><input type="text" name="department"/></td>
+                </tr>
+                <tr>
+                    <td>Session : </td>
+                    <td><input type="text" name="session"/></td>
+                </tr>
+                <tr>
+                    <td>Country : </td>
+                    <td>
+                        <select name="country" style="width: 160px">
+                            <option>Bangladesh</option>
+                            <option>India</option>
+                            <option>Pakistan</option>
+                            <option>Sri Lanka</option>
+                            <option>Nepal</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit"/></td>
+                </tr>
+            </table>
+        </form>
+        <a href="retriveservlet">View Data</a>
+    </body>
+</html>
